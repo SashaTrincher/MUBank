@@ -32,7 +32,7 @@ formSubmitButton.addEventListener('click', () => {
 
     if (storedUserData && formEmail === storedUserData.email && formPassword === storedUserData.password) {
       console.log('Login successful');
-      window.location.href = '../main-web/main.html';
+      window.location.href = './main-html';
     } else {
       console.log('Invalid email or password');
     }
