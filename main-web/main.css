@@ -14,7 +14,7 @@ header {
     position: fixed;
     width: 100vw;
     height: 55px;
-    background-color: #ffffffa7;
+    background-color: #ffffff9f;
 }
 .nav-wrapper {
     width: 100vw;
@@ -63,21 +63,105 @@ header {
 }
 .nav-item {
     cursor: pointer;
-    color: #720e9e;
+    color: rgb(62, 62, 62);
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     transition: .3s;
 }
-.fa-arrow-down {
+.service-arrow {
     margin-left: 7px;
-    color: black;
+    color: rgb(62, 62, 62);
 }
 .mng-link {
-    color: #720e9e;
+    color: rgb(62, 62, 62);
     transition: .7s;
 }
 .nav-item:hover, .mng-link:hover {
-    color: #452c63;
+    color: rgb(26, 26, 26);
+}
+.service-card {
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+}
+.service-card_balance {
+    transition: .3s;
+}
+.service-card_balance:hover {
+    background-color: #d2d2d2;
+}
+.service-card_piggy {
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+.service-card_balance-text {
+    color: rgb(72, 72, 72);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.service-card_balance-arrow {
+    position: absolute;
+    right: 20px;
+    color: black;
+}
+.nav-right {
+    width: fit-content;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 150px;
+}
+.exchange-value-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    height: 55px;
+}
+.exchange-value-container:hover {
+    border-bottom: 3px solid #ad98ff;
+}
+.exchange-value-text {
+    color: rgb(62, 62, 62);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.exchange-value-container:hover .exchange-value-text {
+    transform: translateY(1px);
+}
+.exchange-value-text span {
+    color: rgb(37, 37, 37);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 35px;
+    border: 1px solid #ad98ff;
+    border-radius: 50px;
+    transition: .3s;
+}
+.login-container:hover {
+    background-color: #ad98ff;
+}
+.login-icon {
+    margin-right: 15px;
+    font-size: 17px;
+    color: rgb(62, 62, 62);
+}
+.header-login-text {
+    color: rgb(62, 62, 62);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 main {
     width: 100vw;

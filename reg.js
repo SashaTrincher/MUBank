@@ -26,10 +26,9 @@ formSubmitButton.addEventListener('click', () => {
       password: formPassword
     };
 
-    // Store user data in local storage
     localStorage.setItem('userData', JSON.stringify(userData));
     console.log('Registration successful');
-    window.location.href = './login.html';
+    window.location.href = '/main-web/main.html';
   } else if (!formEmail.includes('.')) {
     console.log('Email format is wrong');
   } else if (!isNaN(fNameInput) || !isNaN(sNameInput)) {
