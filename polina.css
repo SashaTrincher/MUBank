@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    outline: 0;
+    box-sizing: border-box;
+}
+.P_page {
+    border-radius: 3%;
+    position: relative;
+    overflow: hidden;
+    width: 900px;
+    height: 600px;
+    margin: 0 auto;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+.P_text {
+    width: 300px;
+    margin: 0 auto;
+    height: 205px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+}
+.P_logo{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+.P_img{
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.P_arrow-one{ 
+    width: 170px;
+    height: 170px;
+    transform: rotate(-45deg);
+    transform: scaleY(-1);
+}
+.P_arrow-two{
+    width: 170px;
+    height: 170px;
+    transform: scale(-1);
+}
+.P_block-button {
+    margin: 0 auto;
+    width: 500px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 40px;
+}
+.P_button-one {
+    border: 1px solid #000;
+    cursor: pointer;
+    width: 130px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgba(199, 199, 199, 0);
+}
+.P_button-two {
+    border: 1px solid #000;
+    background-color: rgba(199, 199, 199, 0);
+    width: 130px;
+    height: 70px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.P_button-one:hover{
+    background-color: #000;
+    color: #fff;
+}
+.P_button-two:hover{
+    background-color: #000;
+    color: #fff;
+}
+.P_one{
+    width: 400px;
+    height: 400px;
+    border-radius: 10%;
+    border: 3px solid #000;
+    background-color: rgba(252,70,107,1);
+    display: none;
+}
+.P_one__content{
+    height: 370px;
+    width: 370px;
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #000000;
+    font-size: 20px;
+}
+.P_one.P_active{
+    display: block;
+    position: absolute;
+    margin: 0 auto;
+}
+.P_two{
+    width: 400px;
+    height: 400px;
+    border-radius: 10%;
+    background-color: rgba(63,94,251,1);
+    border: 3px solid #000;
+    display: none;
+    margin-left: 500px;
+}
+.P_two.P_go{
+    display: block;
+    position: absolute;
+}
